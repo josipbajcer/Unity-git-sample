@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b23f08d2ae4cba14087c1ed36193d82b, type: 3}
+  m_Name: Behavior A21B
+  m_EditorClassIdentifier: 
+  mBehaviorSource:
+    behaviorName: Behavior
+    behaviorDescription: 
+    mTaskData:
+      types: []
+      parentIndex: 
+      startIndex: 
+      variableStartIndex: 
+      JSONSerialization: "{\n\t\"EntryTask\":{\n\t\t\"ObjectType\":\"BehaviorDesigner.Runtime.Tasks.EntryTask\",\n\t\t\"NodeData\":{\n\t\t\t\"Offset\":\"(0,0)\"\n\t\t},\n\t\t\"ID\":0,\n\t\t\"Name\":\"Entry\",\n\t\t\"Instant\":true\n\t},\n\t\"RootTask\":{\n\t\t\"ObjectType\":\"BehaviorDesigner.Runtime.Tasks.Sequence\",\n\t\t\"NodeData\":{\n\t\t\t\"Offset\":\"(0,120)\"\n\t\t},\n\t\t\"ID\":1,\n\t\t\"Name\":\"Sequence\",\n\t\t\"Instant\":true,\n\t\t\"BehaviorDesigner.Runtime.Tasks.AbortType,abortType\":\"None\",\n\t\t\"Children\":[{\n\t\t\t\"ObjectType\":\"BehaviorDesigner.Runtime.Tasks.Basic.UnityAnimator.Play\",\n\t\t\t\"NodeData\":{\n\t\t\t\t\"Offset\":\"(358.2778,368.944153)\"\n\t\t\t},\n\t\t\t\"ID\":2,\n\t\t\t\"Name\":\"Play\",\n\t\t\t\"Instant\":true,\n\t\t\t\"BehaviorDesigner.Runtime.SharedGameObject,targetGameObject\":{\n\t\t\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedGameObject\",\n\t\t\t\t\"Name\":null\n\t\t\t},\n\t\t\t\"BehaviorDesigner.Runtime.SharedString,stateName\":{\n\t\t\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedString\",\n\t\t\t\t\"Name\":null,\n\t\t\t\t\"System.String,mValue\":\"WalkFWD\"\n\t\t\t},\n\t\t\t\"System.Int32,layer\":-1,\n\t\t\t\"System.Single,normalizedTime\":0\n\t\t},{\n\t\t\t\"ObjectType\":\"BehaviorDesigner.Runtime.Tasks.Movement.Seek\",\n\t\t\t\"NodeData\":{\n\t\t\t\t\"Offset\":\"(502.277832,356.5553)\"\n\t\t\t},\n\t\t\t\"ID\":3,\n\t\t\t\"Name\":\"Seek\",\n\t\t\t\"Instant\":true,\n\t\t\t\"BehaviorDesigner.Runtime.SharedGameObject,target\":{\n\t\t\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedGameObject\",\n\t\t\t\t\"Name\":null,\n\t\t\t\t\"UnityEngine.GameObject,mValue\":0\n\t\t\t},\n\t\t\t\"BehaviorDesigner.Runtime.SharedVector3,targetPosition\":{\n\t\t\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedVector3\",\n\t\t\t\t\"Name\":null,\n\t\t\t\t\"UnityEngine.Vector3,mValue\":\"(0,0,0)\"\n\t\t\t},\n\t\t\t\"BehaviorDesigner.Runtime.SharedFloat,speed\":{\n\t\t\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedFloat\",\n\t\t\t\t\"Name\":null,\n\t\t\t\t\"System.Single,mValue\":1.5\n\t\t\t},\n\t\t\t\"BehaviorDesigner.Runtime.SharedFloat,angularSpeed\":{\n\t\t\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedFloat\",\n\t\t\t\t\"Name\":null,\n\t\t\t\t\"System.Single,mValue\":1200\n\t\t\t}\n\t\t}]\n\t},\n\t\"Variables\":[{\n\t\t\"Type\":\"BehaviorDesigner.Runtime.SharedGameObject\",\n\t\t\"Name\":\"this\",\n\t\t\"IsShared\":true\n\t}]\n}"
+      fieldSerializationData:
+        typeName: []
+        startIndex: 
+        dataPosition: 
+        unityObjects:
+        - {fileID: 0}
+        byteData: 
+        byteDataArray: 
